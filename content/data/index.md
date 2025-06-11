@@ -1,5 +1,5 @@
 ---
-title: Learning about Physics-Informed Machine Learning
+title: Data for Physics-Informed Machine Learning
 date: 2025-06-08
 
 # Featured image
