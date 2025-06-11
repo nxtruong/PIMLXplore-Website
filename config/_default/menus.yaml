@@ -6,15 +6,25 @@ main:
   - name: Home
     url: /#top
     weight: 10
-  - name: Features
+  - name: Learn
     url: /#features
     weight: 20
-  - name: Solutions
-    url: /#solutions
-    weight: 30
-  - name: Resources
-    weight: 40
     hasChildren: true
-  - parent: Resources
-    name: Blog
-    url: blog/
+  - parent: Learn
+    name: All resources
+    url: learn
+  - parent: Learn
+    name: Publications
+    url: publications
+  - name: Data
+    url: data
+    weight: 30
+  - name: Software
+    url: software
+    weight: 40
+  - name: Playground
+    url: playground
+    weight: 50
+  - name: About
+    url: /#about
+    weight: 60
