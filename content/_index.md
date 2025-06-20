@@ -43,8 +43,11 @@ sections:
     content:
       title: About PIMLXplore
       text: |
-        PIMLXplore is a web portal to physics-informed machine learning (PIML) in science and engineering, funded by an NSF CAREER project.\
-        It has the following main features / components.
+        PIMLXplore is a web portal to physics-informed machine learning in science and engineering, funded by an NSF CAREER project.
+
+        **Physics-informed machine learning (PIML)** is a set of methods and tools that systematically integrate machine learning algorithms with physical constraints and abstract mathematical models developed in scientific and engineering domains. As opposed to purely data-driven methods, PIML models can be trained with additional information obtained by enforcing physical laws such as energy and mass conservation, stability, or invariance.  The integration of machine learning and physics can yield *more effective, physically consistent, and data-efficient models*.
+        
+        PIMLXplore has the following main features / components.
       items:
         - name: Learning Resources
           icon: book-open
@@ -62,7 +65,7 @@ sections:
     content:
       title: Meet the Team
       text: |
-        - **Prof. Truong X. Nghiem**, Associate Professor, _Department of Electrical and Computer Engineering, University of Central Florida_: [Homepage](https://truong.nxtlab.org/).
+        - **[Prof. Truong X. Nghiem](https://truong.nxtlab.org/)**, Associate Professor, _Department of Electrical and Computer Engineering, University of Central Florida_.
         - **Dr. Binh Nguyen**, Postdoctoral Associate, _Department of Electrical and Computer Engineering, University of Central Florida_
         - **Nam Nguyen**, Ph.D. Student, _Department of Electrical and Computer Engineering, University of Central Florida_
   - block: markdown

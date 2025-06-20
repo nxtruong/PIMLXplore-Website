@@ -22,14 +22,14 @@ removePathAccents: true
 cascade:
   # Blog post options
   - _target:
-      path: /blog/**
+      path: /software/**
       kind: page
     pager: true
-    editable: true
-    hide_date: false
-    show_date_updated: true
-    reading_time: true
-    commentable: true
+    editable: false
+    hide_date: true
+    show_date_updated: false
+    reading_time: false
+    commentable: false
     show_related: true
     share: true
     # Just use Breadcrumb for navigation on blog post pages?
@@ -39,7 +39,7 @@ cascade:
         enable: true
   # Blog section options
   - _target:
-      path: /blog/*
+      path: /software/*
       kind: section
     # Set the listing view
     view: date-title-summary
