@@ -11,9 +11,9 @@ sections:
         To request adding software or code to the list, please contact PI [Truong Nghiem](https://truong.nxtlab.org/).
 
   - block: collection
-    id: rom
+    id: all
     content:
-      title: Reduced order model (ROM)
+      title: ''
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -25,7 +25,7 @@ sections:
           - software
         author: ""
         category: "software"
-        tag: "ROM"
+        tag: ""
         publication_type: ""
         featured_only: false
         exclude_featured: false
@@ -39,40 +39,170 @@ sections:
       sort_ascending: false
     design:
       # Choose a listing view
-      view: list
-      # Choose single or dual column layout
-      columns: '2'
+      view: card
+
+  # - block: collection
+  #   id: comparison
+  #   content:
+  #     title: Comparison of methods
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 0
+  #     # Filter on criteria
+  #     filters:
+  #       # The folders to display content from
+  #       folders:
+  #         - software
+  #       author: ""
+  #       category: "software"
+  #       tag: "comparison"
+  #       publication_type: ""
+  #       featured_only: false
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #     # Choose how many pages you would like to offset by
+  #     # Useful if you wish to show the first item in the Featured widget
+  #     offset: 0
+  #     # Field to sort by, such as Date or Title
+  #     sort_by: 'Date'
+  #     sort_ascending: false
+  #   design:
+  #     # Choose a listing view
+  #     view: list
+  #     # Choose single or dual column layout
+  #     columns: '2'
+
+  # - block: collection
+  #   id: rom
+  #   content:
+  #     title: Reduced order model (ROM)
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 0
+  #     # Filter on criteria
+  #     filters:
+  #       # The folders to display content from
+  #       folders:
+  #         - software
+  #       author: ""
+  #       category: "software"
+  #       tag: "ROM"
+  #       publication_type: ""
+  #       featured_only: false
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #     # Choose how many pages you would like to offset by
+  #     # Useful if you wish to show the first item in the Featured widget
+  #     offset: 0
+  #     # Field to sort by, such as Date or Title
+  #     sort_by: 'Date'
+  #     sort_ascending: false
+  #   design:
+  #     # Choose a listing view
+  #     view: list
+  #     # Choose single or dual column layout
+  #     columns: '2'
   
-  - block: collection
-    id: phsystems
-    content:
-      title: Port-Hamiltonian systems
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 0
-      # Filter on criteria
-      filters:
-        # The folders to display content from
-        folders:
-          - software
-        author: ""
-        category: "software"
-        tag: "PHsystem"
-        publication_type: ""
-        featured_only: false
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-      # Choose how many pages you would like to offset by
-      # Useful if you wish to show the first item in the Featured widget
-      offset: 0
-      # Field to sort by, such as Date or Title
-      sort_by: 'Date'
-      sort_ascending: false
-    design:
-      # Choose a listing view
-      view: list
-      # Choose single or dual column layout
-      columns: '2'
+  # - block: collection
+  #   id: phsystems
+  #   content:
+  #     title: Port-Hamiltonian systems
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 0
+  #     # Filter on criteria
+  #     filters:
+  #       # The folders to display content from
+  #       folders:
+  #         - software
+  #       author: ""
+  #       category: "software"
+  #       tag: "PHsystem"
+  #       publication_type: ""
+  #       featured_only: false
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #     # Choose how many pages you would like to offset by
+  #     # Useful if you wish to show the first item in the Featured widget
+  #     offset: 0
+  #     # Field to sort by, such as Date or Title
+  #     sort_by: 'Date'
+  #     sort_ascending: false
+  #   design:
+  #     # Choose a listing view
+  #     view: list
+  #     # Choose single or dual column layout
+  #     columns: '2'
+
+  # - block: collection
+  #   id: NN
+  #   content:
+  #     title: Neural networks
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 0
+  #     # Filter on criteria
+  #     filters:
+  #       # The folders to display content from
+  #       folders:
+  #         - software
+  #       author: ""
+  #       category: "software"
+  #       tag: "NN"
+  #       publication_type: ""
+  #       featured_only: false
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #     # Choose how many pages you would like to offset by
+  #     # Useful if you wish to show the first item in the Featured widget
+  #     offset: 0
+  #     # Field to sort by, such as Date or Title
+  #     sort_by: 'Date'
+  #     sort_ascending: false
+  #   design:
+  #     # Choose a listing view
+  #     view: list
+  #     # Choose single or dual column layout
+  #     columns: '2'
+
+  # - block: collection
+  #   id: monotonic
+  #   content:
+  #     title: Monotonicity property
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 0
+  #     # Filter on criteria
+  #     filters:
+  #       # The folders to display content from
+  #       folders:
+  #         - software
+  #       author: ""
+  #       category: "software"
+  #       tag: "monotonic"
+  #       publication_type: ""
+  #       featured_only: false
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #     # Choose how many pages you would like to offset by
+  #     # Useful if you wish to show the first item in the Featured widget
+  #     offset: 0
+  #     # Field to sort by, such as Date or Title
+  #     sort_by: 'Date'
+  #     sort_ascending: false
+  #   design:
+  #     # Choose a listing view
+  #     view: list
+  #     # Choose single or dual column layout
+  #     columns: '2'
 ---
