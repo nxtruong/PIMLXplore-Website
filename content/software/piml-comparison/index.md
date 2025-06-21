@@ -3,7 +3,7 @@ title: "Comprehensive Comparison of Physics-Informed Machine Learning for Data-D
 subtitle: ""
 summary: "Python code for implementation and comparison of first-principle, vanilla machine learning, and physics-informed machine learning methods for learning models of an HVAC system from data."
 authors: [admin]
-tags: [comparison]
+tags: [comparison,NN,GP,NODE,monotonic]
 categories: [software]
 date: 2025-06-21
 lastmod: 2025-06-21
