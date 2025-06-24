@@ -3,7 +3,7 @@ title: "Structure- and Stability-Preserving Learning-based Reduced Ordered Model
 subtitle: ""
 summary: "Julia and Python code for learning a data-driven reduced-order model of a port-Hamiltonian system, that preserves the PH structure and its stable equilibria."
 authors: [admin]
-tags: [ROM,PHsystem]
+tags: [ROM,PHsystem,Python,Julia]
 categories: [software]
 date: 2025-06-20
 lastmod: 2025-06-20

@@ -3,7 +3,7 @@ title: "Physics-Constrained Taylor Neural Networks for Learning and Control of D
 subtitle: ""
 summary: "Python code for monotonic Taylor neural networks of dynamical systems."
 authors: [admin]
-tags: [NN,monotonic]
+tags: [NN,monotonic,Python]
 categories: [software]
 date: 2025-06-21
 lastmod: 2025-06-21
